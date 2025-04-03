@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medication Name" />
+
+    <!-- Updated frequency dropdown -->
+    <Spinner
+        android:id="@+id/spinner_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Frequency" />
+
+    <!-- Dynamic Time Selector Container -->
+    <LinearLayout
+        android:id="@+id/time_selector_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_date_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date (e.g., 2025-01-01)"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/edit_text_date_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date (e.g., 2025-01-10)"
+        android:inputType="datetime" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Grants access to app-specific storage directory -->
+    <files-path name="images" path="pictures/" />
+
+    <!-- Grants access to external storage (For Android 9 and below) -->
+    <external-files-path name="external_images" path="." />
+
+    <!-- Grants access to cache directory (For temporary images) -->
+    <cache-path name="cached_images" path="." />
+</paths>
