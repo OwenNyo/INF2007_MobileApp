@@ -114,4 +114,3 @@ Inf2007_mobileapp uses the {test_framework} test framework. Run the test suite w
 
 > gradle test
 
-Return
