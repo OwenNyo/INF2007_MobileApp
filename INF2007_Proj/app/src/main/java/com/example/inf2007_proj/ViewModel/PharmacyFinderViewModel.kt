@@ -21,7 +21,7 @@ class PharmacyFinderViewModel : ViewModel() {
     val pharmacies: LiveData<List<Pharmacy>> get() = _pharmacies
 
     // 🔹 INLINE API KEY (Replace with your actual API key)
-    private val apiKey = "AIzaSyD7uR1u4lqh0NgmFTOwjo1T3jRNWPLwj7s"
+    private val apiKey = "INSERT KEY"
 
 //    fun fetchNearbyPharmacies(context: Context) {
 //        viewModelScope.launch(Dispatchers.IO) { // Use IO thread for network requests
