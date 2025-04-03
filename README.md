@@ -75,8 +75,43 @@ Welcome to onemoregame Mobile App project! This repository contains our project,
 ![step6.png](assets%2Fstep6.png)
 
 ### Project Setup
-**Prerequisites**
-1. 
+**This project requires the following dependencies:**
 
-**Steps**
-1. 
+- **Programming Language**: Kotlin  
+- **Package Manager**: Gradle
+
+## Installation
+
+Build INF2007_MobileApp from the source and install dependencies:
+
+1. **Clone the repository:**
+
+> git clone https://github.com/OwenNyo/INF2007_MobileApp
+
+2. **Navigate to the project directory:**
+
+> cd INF2007_MobileApp
+
+3. **Install the dependencies:**
+
+**Using gradle:**
+
+> gradle build
+
+## Usage
+
+Run the project with:
+
+**Using gradle:**
+
+> gradle run
+
+## Testing
+
+Inf2007_mobileapp uses the {test_framework} test framework. Run the test suite with:
+
+**Using gradle:**
+
+> gradle test
+
+Return
